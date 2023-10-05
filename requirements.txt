@@ -1,0 +1,17 @@
+# requirements.txt
+requests==2.26.0
+pycryptodome==3.11.0
+pytz==2021.3
+slf4j==2.0.0
+pycryptodomex==3.11.0
+pycryptodome==3.11.0
+cryptography==36.0.0
+Crypto==1.7.2
+urllib3==1.26.8
+base64
+hashlib
+uuid
+datetime
+pytz
+json
+getpass
