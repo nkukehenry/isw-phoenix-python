@@ -7,16 +7,17 @@ import getpass
 from datetime import datetime
 from pytz import timezone
 import pytz
-from crypto_utils import CryptoUtils  # Import CryptoUtils from the crypto_utils module
+from app_crpyto_utils import CryptoUtils  # Import CryptoUtils from the crypto_utils module
 from auth_utils import AuthUtils  # Import AuthUtils from the auth_utils module
 from http_utils import HttpUtil  # Import HttpUtil from the http_utils module
+from elliptic_curves import EllipticCurveUtils
 
 # Constants
-ROOT_LINK = "your_root_link"
+ROOT_LINK    = "your_root_link"
 MY_SERIAL_ID = "your_serial_id"
-TERMINAL_ID = "your_terminal_id"
-ACCOUNT_PWD = "your_account_password"
-APP_VERSION = "your_app_version"
+TERMINAL_ID  = "your_terminal_id"
+ACCOUNT_PWD  = "your_account_password"
+APP_VERSION  = "your_app_version"
 
 class ClientRegistration:
     def __init__(self):
