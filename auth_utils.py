@@ -11,7 +11,7 @@ from app_crpyto_utils import CryptoUtils  # Import CryptoUtils from the crypto_u
 # Constants
 CLIENT_ID = "your_client_id"
 CLIENT_SECRET = "your_client_secret"
-AUTHORIZATION_REALM = "Basic"
+AUTHORIZATION_REALM = "InterswitchAuth"
 ISO_8859_1 = "iso-8859-1"
 
 class AuthUtils:
